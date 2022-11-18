@@ -6,22 +6,22 @@
 .container-hero {
     background-color: var(--bg-lgrey-color);
 }
-/* h2 {
-    font-size: 48px;
-    line-height: 58.09px;
-    font-weight: 600;
-    text-align: center;
-} */
-@media (min-width: 992px) {
-    .shop-grid {
-        display: grid !important;
-        grid-template-columns: 1fr 1fr 1fr !important;
-        gap: 60px;
-    }
+@media (min-width: 576px) {
     .duk-grid {
         display: grid;
-        grid-template-columns: 1fr 1fr;
-        gap: 40px;
-        padding: 50px;
+        grid-template-columns: 1fr;
+    }
+    @media (min-width: 992px) {
+        .shop-grid {
+            display: grid !important;
+            grid-template-columns: 1fr 1fr 1fr !important;
+            gap: 60px;
+        }
+        .duk-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 40px;
+            padding: 50px;
+        }
     }
 }

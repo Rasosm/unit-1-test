@@ -9,6 +9,18 @@
     min-height: 100vh;
 } */
 /* HERO-start */
+.header {
+    display: grid !important;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px 60px;
+    margin: 20px;
+    text-align: start;
+    margin: 20px;
+}
+.main-menu > .link {
+    color: #000;
+    margin-left: 20px;
+}
 .hero {
     min-height: 100vh;
     width: 90%;
@@ -38,6 +50,7 @@
     background-color: #fff;
     color: #000;
 }
+
 /* HERO-end */
 /* SHOP-start */
 .shop-title {
@@ -83,43 +96,48 @@
 }
 .duk-questions {
     background-color: #414141;
+    border-radius: 10px;
+    margin-right: 10px;
 }
 .duk-contact {
     background-color: #f3f3f3;
+    border-radius: 10px;
 }
 .duc {
+    text-align: center;
+}
+.duk-btn {
+    margin: 50px;
     text-align: center;
 }
 /* DUK-end */
 /* FOOTER-start */
 .footer-title {
+    text-align: center;
+    padding: 50px;
     text-transform: uppercase;
 }
 .line {
-    width: 1184px;
+    width: 70%;
     background-color: #fff;
     height: 3px;
-    transform: translate(-50%);
     margin-top: 60px;
-    /* left: 50%; */
+    left: 50%;
 }
 .conteiner-footer {
     background-color: var(--bg-grey-color);
-}
-.footer-title {
-    text-align: center;
-    margin: 51px;
 }
 .footer-contact {
     display: grid !important;
     grid-template-columns: 1fr 1fr;
     gap: 60px 60px;
     text-align: start;
+    margin: 20px;
 }
 .footer-bottom {
     text-align: center;
 }
 .copyright {
-    margin-top: 60px;
+    margin: 20px;
 }
 /* FOOTER-end */
