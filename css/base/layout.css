@@ -1,7 +1,7 @@
 .container {
-    float: left;
     width: 100%;
     padding: 0;
+    text-align: center;
 }
 .container-hero {
     background-color: var(--bg-lgrey-color);
@@ -14,9 +14,9 @@
 } */
 @media (min-width: 992px) {
     .shop-grid {
-        display: grid;
-        grid-template-columns: 1fr 1fr 1fr;
-        gap: 60px 60px;
+        display: grid !important;
+        grid-template-columns: 1fr 1fr 1fr !important;
+        gap: 60px;
     }
     .duk-grid {
         display: grid;
