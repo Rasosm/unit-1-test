@@ -13,9 +13,8 @@
     display: grid !important;
     grid-template-columns: 1fr 1fr;
     gap: 60px 60px;
-    margin: 20px;
+    margin: 20px 100px;
     text-align: start;
-    margin: 20px;
 }
 .main-menu > .link {
     color: #000;
@@ -48,6 +47,10 @@
 .individual {
     padding: 10px 30px;
     background-color: #fff;
+    color: #000;
+}
+.logo {
+    text-decoration: none;
     color: #000;
 }
 
