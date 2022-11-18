@@ -1,3 +1,10 @@
+/* base */
+@import '../base/base.css';
+@import '../base/layout.css';
+/* 3rd-party */
+/* components */
+@import '../components/buttons.css';
+
 /* .section-hero {
     min-height: 100vh;
 } */
@@ -16,7 +23,7 @@
     font-size: 64px;
     line-height: 77.45px;
     font-weight: 500;
-    text-transform: capitalize;
+    text-transform: uppercase;
     padding: 100px 0 27px 0;
 }
 .main-description {
@@ -29,4 +36,55 @@
     padding: 10px 30px;
     background-color: #fff;
     color: #000;
+}
+.shop-title {
+    font-size: 48px;
+    line-height: 58.09px;
+    font-weight: 600;
+    text-align: center;
+}
+.img-text {
+    font-size: 24px;
+    line-height: 29.05px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #000;
+}
+.shop {
+    margin: 100px;
+    background-color: var(--bg-grey-color);
+}
+.shop-column {
+    margin: 20px;
+    text-align: center;
+}
+.main-title-duk {
+    font-size: 48px;
+    line-height: 29.05px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin: 100px;
+    text-align: center;
+}
+.duk-question {
+    font-size: 32px;
+    line-height: 38.73px;
+}
+.duk-description {
+    font-size: 24px;
+    line-height: 29.05px;
+    font-weight: 400;
+    padding: 20px;
+}
+.duk-questions {
+    background-color: #414141;
+}
+.duk-contact {
+    background-color: #f3f3f3;
+}
+.duc {
+    text-align: center;
+}
+.footer-title {
+    text-transform: uppercase;
 }
